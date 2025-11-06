@@ -1,0 +1,147 @@
+*{
+    font-family: system-ui, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+.header, .footer, .head-content{
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.herotext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar li, .herosecond{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herologo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.section-1 p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section-2 p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.header, ul{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header, .head-content, .section-1{
+    padding: 5px 200px;
+}
+
+.head-content{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.left-head{
+    width: 445px;
+}
+
+.herosecond{
+    margin: 10px 0;
+}
+
+button{
+    padding: 5px 30px;
+}
+
+.placeholder{
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+}
+
+.card p{
+    border: 3px solid #3882F6;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.section-2{
+    background-color: #E5E7EB;
+}
+.s2-content{
+    padding: 10px 295px;
+    
+}
+
+.s2-content h2{
+    text-align: end;
+}
+
+.section-3{
+    padding: 50px 250px;
+}
+
+.s3-content{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 10px 60px;
+    color: #E5E7EB;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footer{
+    padding: 20px 50px;
+    color: #E5E7EB;
+    text-align: center;
+}
